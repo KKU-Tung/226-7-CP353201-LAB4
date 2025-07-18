@@ -1,0 +1,14 @@
+total,freq,point,rank
+10000,4,500,Standard
+10001,4,500,Standard
+50000,4,500,Gold
+99999,4,500,Gold
+100000,4,500,Standard
+50000,1,500,Standard
+50000,2,500,Standard
+50000,6,500,Standard
+50000,7,500,Standard
+50000,4,100,Standard
+50000,4,101,Standard
+50000,4,999,Gold
+50000,4,1000,Gold

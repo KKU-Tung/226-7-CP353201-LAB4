@@ -1,0 +1,19 @@
+package sqa.test;
+import static org.junit.jupiter.api.Assertions.*;
+
+import main.Ranking.java;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.api.Test;
+
+class NormValueTest1 {
+	
+	@ParameterizedTest
+	@CsvFileSource(
+			files = "C:\Github\226-7-CP353201-LAB4\Lab4_BVT\MembershipRanking\src\sqa\test\normtest1.csv", numLinesToSkip = 2
+			)
+	void normvaluetest1(int purchaseTotal, int frequency, int pointCollected) {
+		assertEquals();
+	
+	}
+
+}
