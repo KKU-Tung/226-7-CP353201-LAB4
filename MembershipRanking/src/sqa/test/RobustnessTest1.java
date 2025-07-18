@@ -10,7 +10,7 @@ class RobustnessTest1 {
 	Ranking ranking = new Ranking();
 	
 	@ParameterizedTest
-	@CsvFileSource(files = "src/TestCSV/robusttest1.csv", numLinesToSkip = 1)
+	@CsvFileSource(files = "src/TestCSV/robusttest1x.csv", numLinesToSkip = 1)
 	
 	void CalculateMembershipRank_Test2(int purchaseTotal, int frequency, int pointCollected, String expectedRank) {
 		String rankResult = ranking.CalculateMembershipRank(purchaseTotal, frequency, pointCollected);

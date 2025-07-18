@@ -12,7 +12,7 @@ class NormValueTest1 {
 	Ranking ranking = new Ranking();
 	
 	@ParameterizedTest
-	@CsvFileSource(files = "src/TestCSV/normtest1.csv", numLinesToSkip = 1)
+	@CsvFileSource(files = "src/TestCSV/normtest1x.csv", numLinesToSkip = 1)
 	
 	void CalculateMembershipRank_Test1(int purchaseTotal, int frequency, int pointCollected, String expectedRank) {
 		String rankResult = ranking.CalculateMembershipRank(purchaseTotal, frequency, pointCollected);
